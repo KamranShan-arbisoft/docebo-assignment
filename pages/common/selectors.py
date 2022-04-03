@@ -8,6 +8,12 @@ class NextButton:
     next_btn_pages = '[jsname|=OCpkoe]'
     view_source = 'a[aria-label="View score"]'
     form_questions = 'div[role="list"] div[role="heading"][aria-Level="3"]'
+    field_validation_text = 'div[role="list"] div[role="alert"]>span'
+
+
+class ValidationCheck:
+    error_msg_ele = '[data-params*="Phone Number"] input'
+    error_msg_text = '[data-params*="{}"] input'
 
 
 class BasicInfoSelector:
